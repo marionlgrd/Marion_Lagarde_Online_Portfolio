@@ -1,0 +1,144 @@
+body {
+  background: #7bbda6;
+}
+
+section {
+  min-height: 98vh;
+  border-bottom: 1px double solid green;
+
+}
+
+figure {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#photo{
+  background-color: black;
+
+}
+
+#photo section {
+  min-height: 98vh;
+  border-bottom: 1px double solid green;
+  padding: 2em;
+}
+ h1{
+  padding: 3em;
+}
+#photo .project-feature {
+  border: 0.5px solid white;
+  padding: 1em;
+  margin : 0.5em;
+  flex-basis: 320px;
+
+}
+
+#contact{
+padding: 0.5em;
+
+
+}
+
+#photo{
+
+}
+
+img{
+  max-height:40vh;
+  max-width: 40vh;
+
+
+
+}
+
+.project-feature-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.project-feature {
+  border: 0.5px solid #b3e6cc;
+  padding: 1em;
+  margin : 0.5em;
+  flex-basis: 320px;
+}
+
+#main-menu {
+
+  background-color: #427865;
+  width : 320px;
+  position: absolute;
+  top: 0;
+  left: -320px;
+  height:100%;
+  z-index: 999;
+  transition: 1.23s all ease;
+}
+
+#main-menu:target +.backdrop {
+  background: rgba(223, 245, 226, 0.8);
+  position :absolute;
+  top: 100;
+  left:0;
+  width: 100%;
+  height:100%;
+  z-index:998;
+
+}
+
+#main-menu a{
+  display: block;
+  padding: 1em;
+  text-transform: uppercase;
+
+}
+
+#main-menu:target{
+  left:0px;
+}
+
+.toggle-menu{
+  border : 2px solid #000;
+  border-radius: 10px;
+  padding: 1em;
+  background: #000;
+  color : #fff;
+}
+
+.close-menu{
+  display: block;
+  width : 16px;
+  height: 16px;
+  background: #000;
+  border-radius: 100%;
+  color : #fff;
+
+
+}
+
+@media  (min-width:640px){
+#main-menu {
+  position: static;
+  width: 100%;
+}
+#main-menu ul{
+  display:flex;
+  justify-content: space-evenly;
+}
+.toggle-menu{
+  display:none;
+}
+#main-menu .close-menu{
+  display:none;
+}
+
+}
+
+footer{
+  text-align: right;
+  padding: 1em;
+}
