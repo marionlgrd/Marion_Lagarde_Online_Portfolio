@@ -2,6 +2,44 @@ body {
   background: #7bbda6;
 }
 
+
+
+#contact a {
+  padding-top : 2em;
+}
+#about a {
+  padding-top: 2em;
+}
+#about p {
+  padding-top: 1em;
+  padding-left:3em;
+  padding-right:3em;
+  padding-bottom: 3em;
+  margin: 10px;
+
+}
+
+#logo img{
+  max-height:10vh;
+  max-width: 10vh;
+  padding-top:5em;
+
+}
+
+#logo h1{
+  padding-left:3em;
+  padding-right:3em;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+#about h1{
+  padding-left:3em;
+  padding-right:3em;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
 section {
   min-height: 98vh;
   border-bottom: 1px double solid green;
@@ -25,7 +63,10 @@ align-items: center;
   padding: 2em;
 }
  h1{
-  padding: 3em;
+   padding-left:3em;
+   padding-right:3em;
+   padding-top: 1em;
+   padding-bottom: 3em;
 }
 #photo .project-feature {
   border: 0.5px solid white;
