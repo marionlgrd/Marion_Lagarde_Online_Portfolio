@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Lobster+Two|Paytone+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500");
 body {
   font-family: helvetica;
 }
@@ -24,10 +25,51 @@ p {
   color : white;
 font-style: monospace; }
 
-#photo figcaption {
-  color: grey;
+#photo p {
+  color: black;
+  font-style: monospace;
 }
 
+#photo h1{
+  font-size: 5em;
+  margin-bottom: 1em ;
+  text-align: center;
+  color: black;
+  font-family: 'Paytone One', sans-serif;
+}
+
+#photo figcaption {
+  color: grey;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+#photo h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size:0,5em;
+  text-align: left;
+  color:black;
+
+}
+
+#photo .goback {
+  color: grey;
+  font-family: 'Dosis', sans-serif;
+  font-size:1em;
+  text-align: left;
+}
+
+.goback {
+  font-family: 'Dosis', sans-serif;
+  font-size:1em;
+  text-align: left;
+
+}
+
+#photo a {
+  color:grey;
+  text-align: right;
+}
 
 figcaption{
   color: #b3e6cc;
@@ -47,12 +89,29 @@ font-family: 'Dosis', sans-serif;
 footer{
   color:#fff;
 }
+
+
 #contact{
   color: #fff;
   text-align: center;
 
 }
 
+#contact h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size:1em;
+  text-align: left;
+}
+
+#contact ul{
+  font-size: 1.5em;
+font-family: 'Dosis', sans-serif;
+text-align: left;
+}
+
+#contact h1{
+  font-size: 4em;
+}
 
 
 #about p {
