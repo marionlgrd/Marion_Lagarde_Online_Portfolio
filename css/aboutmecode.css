@@ -1,15 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500");
-* {
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Lobster+Two|Paytone+One&display=swap');
+
+
+a {
+  font-family: 'Dosis', sans-serif;
+  font-size:1em;
+  text-align: left;
+
+}
+
+ * {
   box-sizing: border-box;
   margin: 0;
   font-family: Poppins, sans-serif;
   user-select: none;
 }
+
 img{
   position: relative;
   width: 300px;
   height: 360px;
 }
+
 html {
   font-weight: 400;
   font-size: 16px;
