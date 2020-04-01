@@ -25,9 +25,25 @@ p {
   color : white;
 font-style: monospace; }
 
+#illu .project-feature p {
+  text-align: center;
+}
+
+#illu .project-feature a {
+  color: #427865;
+  text-align: right;
+}
+
+
 #photo p {
   color: black;
   font-style: monospace;
+  text-align: center;
+}
+
+#photo .project-feature a  {
+  color: grey;
+  text-align: right;
 }
 
 #photo h1{
@@ -52,29 +68,13 @@ font-style: monospace; }
 
 }
 
-#photo .goback {
-  color: grey;
-  font-family: 'Dosis', sans-serif;
-  font-size:1em;
-  text-align: left;
-}
 
-.goback {
-  font-family: 'Dosis', sans-serif;
-  font-size:1em;
-  text-align: left;
-
-}
-
-#photo a {
-  color:grey;
-  text-align: right;
-}
 
 figcaption{
   color: #b3e6cc;
   text-align: center;
   font-family: 'Dosis', sans-serif;
+
 }
 
 ul{
