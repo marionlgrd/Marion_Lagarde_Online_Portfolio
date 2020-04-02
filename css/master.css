@@ -2,6 +2,15 @@ body {
   background: #7bbda6;
 }
 
+#background {
+background: #000 url('images/backgroundindex.jpg') no-repeat center;
+background-size: cover;
+height:650px;
+
+
+
+}
+
 h1{
   padding-left:3em;
   padding-right:3em;
@@ -27,11 +36,7 @@ img{
 
 
 
-#contact{
-padding: 0.5em;
 
-
-}
 
 #contact h2 {
   padding : 2em;
@@ -43,44 +48,25 @@ padding: 0.5em;
     padding:3em;
 }
 
-#contact ul {
+#contact .infocontact ul {
   margin-left: auto;
     margin-right: auto;
     width: 12em;
 }
 
-#about a {
-  padding-top: 2em;
-}
-#about p {
-  padding-top: 1em;
-  padding-left:3em;
-  padding-right:3em;
-  padding-bottom: 3em;
-  margin: 10px;
 
-}
 
-#logo img{
-  max-height:10vh;
-  max-width: 10vh;
+
+.logo img{
+  max-height:15vh;
+  max-width: 15vh;
   padding-top:5em;
 
 }
 
-#logo h1{
-  padding-left:3em;
-  padding-right:3em;
-  padding-top: 1em;
-  padding-bottom: 3em;
-}
 
-#about h1{
-  padding-left:3em;
-  padding-right:3em;
-  padding-top: 3em;
-  padding-bottom: 1em;
-}
+
+
 
 #projects section {
   min-height: 98vh;
@@ -240,5 +226,5 @@ padding:2em;
 
 footer{
   text-align: right;
-  padding: 2em;
+  padding: 0.5em;
 }
