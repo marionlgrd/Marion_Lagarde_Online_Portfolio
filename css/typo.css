@@ -5,6 +5,13 @@ body {
   font-family: helvetica;
 }
 
+#home h1 {
+  color: #7bbda6;
+  font-size: 5em;
+  text-align: center;
+  font-family: 'Paytone One', sans-serif;
+}
+
 h1{
   font-size: 5em;
   margin-bottom: 1em ;
@@ -25,7 +32,19 @@ p {
   color : white;
 font-style: monospace; }
 
-#background h1{
+
+
+
+#projects .project-feature a  {
+  color: #427865;
+  text-align: right;
+}
+
+#projects .project-feature p {
+text-align: center;
+}
+
+#home h1{
 
   font-size: 3em;
   text-align: center;
@@ -35,6 +54,8 @@ font-style: monospace; }
   padding-bottom: 4em;
 
 }
+
+
 
 
 
@@ -58,6 +79,8 @@ font-style: monospace; }
   color: grey;
   text-align: right;
 }
+
+
 
 #photo h1{
   font-size: 5em;
