@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Lobster+Two|Paytone+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500");
+
+#project1 {
+  background: #000 url('images/piggy.png')no-repeat center; background-size: cover; height: 900px;
+}
+
+#project2 {
+  background: #000 url('images/Pack.png')no-repeat center; background-size: cover; height: 900px;
+}
+
+#project3 {
+  background: #000 url('images/VInattitudeblanc.jpg')no-repeat center;background-size: cover;  height: 900px;
+}
+
+#project4 {
+  background: #000 url('images/apacomlivre.jpg')no-repeat center;background-size: cover;  height: 900px;
+}
+
+
+
+#project1 h1{
+
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 4em;
+
+}
+
+#project2 h1{
+
+  font-size: 4em;
+  text-align: left;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 4em;
+
+}
+
+#project2 p{
+
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 4em;
+
+}
+
+#project2 a{
+
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 4em;
+
+}
+
+#project3 h1{
+
+  font-size: 4em;
+  text-align: left;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 4em;
+  padding-left: 3em;
+
+}
+
+#project3 p{
+
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:0em;
+  padding-bottom: 4em;
+
+
+}
+
+#project3 a{
+
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 4em;
+  padding-left: 3em;
+
+}
+
+
+
+#project4 h1{
+
+  font-size: 4em;
+  text-align: right;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 4em;
+  padding-right: 3em;
+
+}
+
+#project4 p{
+
+  font-size: 1em;
+  text-align: right;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:1em;
+  padding-bottom: 4em;
+    padding-right: 3em;
+
+}
+
+#project4 a{
+
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 4em;
+  padding-left: 4em;
+
+}

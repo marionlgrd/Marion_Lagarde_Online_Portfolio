@@ -2,14 +2,22 @@ body {
   background: #7bbda6;
 }
 
-#background {
-background: #000 url('images/backgroundindex.jpg') no-repeat center;
-background-size: cover;
-height:650px;
-
-
+#home{
+  background: #000 url('images/bg_lake.jpeg')no-repeat center; background-size: cover; height: 700px;
 
 }
+
+#home h1{
+  padding-left:auto;
+  padding-right:auto;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+
+
+
+
 
 h1{
   padding-left:3em;
@@ -18,9 +26,7 @@ h1{
   padding-bottom: 2em;
 }
 
-figcaption {
-  padding: 0,75em;
-}
+
 
 figure {
 display: flex;
@@ -74,6 +80,26 @@ img{
 
 }
 
+#projects .project-feature h2 {
+  padding: 0.75em;
+
+}
+#projects .project-feature figcaption {
+  padding: 0.5em;
+
+}
+
+#projects .project-feature a {
+  padding-top: 1em;
+  padding-bottom : 1em;
+
+}
+
+#projects .project-feature p {
+  padding-top: auto;
+  padding-bottom : auto;
+}
+
 
 
 #photo{
@@ -94,6 +120,11 @@ img{
 
 }
 
+#photo .project-feature figcaption {
+  padding: 0.5em;
+
+}
+
 
 #photo img{
   max-height:50vh;
@@ -106,9 +137,17 @@ padding: 1em;
 text-align: center;
 }
 
-#photo .goback{
-  padding: 2em;
+#photo .project-feature a {
+  padding-top: 1em;
+  padding-bottom : 1em;
+
 }
+
+#photo .project-feature p {
+  padding-top: auto;
+  padding-bottom : auto;
+}
+
 
 .goback {
 padding:2em;
@@ -147,8 +186,14 @@ padding:2em;
 }
 
 #illu .project-feature a {
-  padding : 0.25;
+  padding-top: 1em;
+  padding-bottom : 1em;
 
+}
+
+#illu .project-feature p {
+  padding-top: auto;
+  padding-bottom : auto;
 }
 
 
