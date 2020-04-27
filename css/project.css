@@ -17,16 +17,51 @@
   background: #000 url('images/apacomlivre.jpg')no-repeat center;background-size: cover;  height: 900px;
 }
 
+#project5 {
+  background: #000 url('images/pause.png')no-repeat center;background-size: cover;  height: 850px;
+}
+
+#project6 {
+  background: #000 url('images/paysagejour.jpg')no-repeat center;background-size: cover;  height: 850px;
+}
 
 
 #project1 h1{
 
   font-size: 3em;
-  text-align: center;
+  text-align: left;
   color: white;
   font-family: 'Dosis', sans-serif;
-  padding-top:3em;
+  padding-top:5em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+
+}
+
+
+#project1 p{
+
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:0;
   padding-bottom: 4em;
+  padding-left: 2em;
+
+
+}
+
+#project1 a{
+
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:0;
+  padding-bottom: 4em;
+  padding-left: 2em;
+
 
 }
 
@@ -134,5 +169,76 @@
   padding-top:3em;
   padding-bottom: 4em;
   padding-left: 4em;
+
+}
+
+#project5 h1{
+
+  font-size: 4em;
+  text-align: left;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 4em;
+  padding-left: 3em;
+
+}
+
+#project5 p{
+
+  font-size: 1em;
+  text-align: left;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  padding-top:1em;
+  padding-bottom: 4em;
+  padding-left: 3em;
+
+}
+
+#project5 a{
+
+  font-size: 1em;
+  text-align: left;
+  color: grey;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 4em;
+  padding-left: 4em;
+
+}
+
+
+#project6 h1{
+
+  font-size: 4em;
+  text-align: left;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-top:3em;
+  padding-bottom: 2em;
+  padding-left: 3em;
+
+}
+
+#project6 p{
+
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-bottom: 2em;
+  padding-left: 3em;
+
+}
+
+#project6 a{
+
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  padding-bottom: 4em;
+  padding-left: 3em;
 
 }
