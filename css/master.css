@@ -10,28 +10,28 @@ body {
 
 
 #home {
-  position: absolute;
-  width: 500px;
+  background-image: #000 url('css/images/swim2.jpg')
+  no-repeat center;
+  background-size: cover;
 
-  left: 72px;
-  top: 257px;
+
+
+
 
 }
 
-#home h2 {
-  padding:inherit;
-}
 
 
 
 
-#home .homeimg  img {
+
+/* #home .homeimg  img {
   position: absolute;
 max-height:300vh;
   left: 100vh;
   top: 5vh;
 
-}
+}*/
 
 
 
