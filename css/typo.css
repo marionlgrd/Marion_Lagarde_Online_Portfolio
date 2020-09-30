@@ -13,26 +13,52 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+#traduction h2 {
+  color: grey;
+	font-style: italic;
+  font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+text-align: center;
+padding-top:1em;
+
+margin-left: auto;
+margin-right: auto;
+}
+
+#traduction p {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+		font-style: italic;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+color: grey;
+padding-bottom: 3em;
+padding-top:0.25em;
+
+}
+
 #home h2 {
   color: #000;
   font-family: 'Lato', sans-serif;
 	font-size: 2em;
 line-height: 2em;
 text-align: center;
-padding-top:1em;
-padding-bottom: 1.5em;
+padding-top:0.5em;
+padding-bottom: 0.5em;
 margin-left: auto;
 margin-right: auto;
 }
 
 #home p {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: 'Lato', sans-serif;
 	font-size: 1em;
-line-height: 1em;
-color: #333;
-margin-left: auto;
-margin-right: auto;
-
+color: #000;
+padding-top:0.5em;
+padding-bottom: 3em;
 
 }
 
@@ -41,6 +67,26 @@ margin-right: auto;
  margin-right: auto;
 }
 
+/* .bouton {
+	margin-left: auto;
+	margin-right: auto;
+	width:250px;
+	height:70px;
+	border-radius: 100px;
+	background:#000;
+	position:static;
+
+}
+
+.bouton p{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+color: #FFFFFF;
+position: absolute;
+z-index: 100;
+} */
 
 
 h1{

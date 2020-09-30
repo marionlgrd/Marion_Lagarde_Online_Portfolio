@@ -10,31 +10,13 @@ body {
 
 
 #home {
-  background-image: #000 url('css/images/swim2.jpg')
+  background-color: white;
   no-repeat center;
   background-size: cover;
 
 
 
-
-
 }
-
-
-
-
-
-
-/* #home .homeimg  img {
-  position: absolute;
-max-height:300vh;
-  left: 100vh;
-  top: 5vh;
-
-}*/
-
-
-
 
 
 h1{
