@@ -16,19 +16,32 @@ body {
 #home h2 {
   color: #000;
   font-family: 'Lato', sans-serif;
-	font-style : bold;
-	font-size: 48px;
-line-height: 56px;
+	font-size: 2em;
+line-height: 2em;
+text-align: center;
+padding-top:1em;
+padding-bottom: 1.5em;
+margin-left: auto;
+margin-right: auto;
 }
 
 #home p {
 	font-family: 'Lato', sans-serif;
-	font-size: 24px;
-line-height: 28px;
+	font-size: 1em;
+line-height: 1em;
 color: #333;
+margin-left: auto;
+margin-right: auto;
 
 
 }
+
+.logo{
+	margin-left: auto;
+ margin-right: auto;
+}
+
+
 
 h1{
   font-size: 5em;
@@ -62,16 +75,8 @@ font-style: monospace; }
 text-align: center;
 }
 
-#home h1{
 
-  font-size: 3em;
-  text-align: center;
-  color: white;
-  font-family: 'Lato', sans-serif;
-  padding-top:3em;
-  padding-bottom: 4em;
 
-}
 
 
 
@@ -116,7 +121,7 @@ text-align: center;
 
 #photo h2 {
   font-family: 'Dosis', sans-serif;
-  font-size:0,5em;
+  font-size:0.5em;
   text-align: left;
   color:black;
 
